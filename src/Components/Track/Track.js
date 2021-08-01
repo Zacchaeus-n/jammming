@@ -40,9 +40,9 @@ export class Track extends React.Component {
           </p>
           <span onClick={this.playPreview}>preview</span>
         </div>
-        <span className="Track-action" onClick={this.renderAction}>
+        <a className="Track-action" onClick={this.renderAction}>
           +
-        </span>
+        </a>
       </div>
     );
   }
