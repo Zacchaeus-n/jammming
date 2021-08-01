@@ -32,7 +32,9 @@ export class SearchBar extends React.Component {
           onChange={this.handleTermChange}
           onKeyPress={this.handleKeyPress}
         />
-        <a onClick={this.search}>SEARCH</a>
+        <a href="https://www.spotify.com/gh/home/" onClick={this.search}>
+          SEARCH
+        </a>
       </div>
     );
   }

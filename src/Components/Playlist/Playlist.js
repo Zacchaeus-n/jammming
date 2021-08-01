@@ -21,7 +21,11 @@ export class Playlist extends React.Component {
           onRemove={this.props.onRemove}
           isRemoval={true}
         />
-        <a className="Playlist-save" onClick={this.props.onSave}>
+        <a
+          href="https://www.spotify.com/gh/home/"
+          className="Playlist-save"
+          onClick={this.props.onSave}
+        >
           SAVE TO SPOTIFY
         </a>
       </div>
