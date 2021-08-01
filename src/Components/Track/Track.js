@@ -34,13 +34,9 @@ export class Track extends React.Component {
             {this.props.artist} | {this.props.album}
           </p>
         </div>
-        <a
-          href="https://www.spotify.com/gh/home/"
-          className="Track-action"
-          onClick={this.renderAction}
-        >
+        <button className="Track-action" onClick={this.renderAction}>
           +
-        </a>
+        </button>
       </div>
     );
   }

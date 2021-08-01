@@ -32,9 +32,12 @@ export class SearchBar extends React.Component {
           onChange={this.handleTermChange}
           onKeyPress={this.handleKeyPress}
         />
-        <a href="https://www.spotify.com/gh/home/" onClick={this.search}>
+        <button
+          href="https://vibrant-goldberg-9f4911.netlify.app/"
+          onClick={this.search}
+        >
           SEARCH
-        </a>
+        </button>
       </div>
     );
   }
